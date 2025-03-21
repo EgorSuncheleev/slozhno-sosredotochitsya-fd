@@ -4,7 +4,7 @@
 */
 
 :root {
-  --font-family: IBM Plex mono;
+  --font-family: IBM Plex mono, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +14,27 @@
     --article-title-color: var(--background-color);
     --title-color: #DB00FF;
     --title-shadow: #FF0070;
-    --title-decor: var(--title-shadow);
+    --title-decor: #ff0070;
+    --title-font-size: font-size: 18px;
+    --link-shadow: var(--title-shadow);
+    --rec-color: var(--title-shadow);
+    --section-title-color: var(--title-shadow);
+    --main-text-color: #F1B2CE;
+    --hover-color: 1px solid rgba(255, 0, 112, 0,4);
+    --title-section-color: var(--backgroung-color);
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: none;
+    --backgroung-color: #FFF1F7;
+    --article-title-color: var(--background-color);
+    --title-color: #FFC2E6;
+    --title-shadow: #FF8DCB;
+    --title-decor: #FF8DCB;
+    --title-font-size: font-size: 18px;
     --link-shadow: var(--title-shadow);
     --rec-color: var(--title-shadow);
     --section-title-color: var(--title-shadow);
