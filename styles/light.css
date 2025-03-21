@@ -9,25 +9,66 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  
-  :root {
-    --background-image: none;
-    --backgroung-color: #FFF1F7;
-    --article-title-color: var(--background-color);
-    --title-color: #FFC2E6;
-    --title-shadow: #FF8DCB;
-    --title-decor: #FF8DCB;
-    --title-font-size: font-size: 18px;
-    --link-shadow: var(--title-shadow);
-    --rec-color: var(--title-shadow);
-    --section-title-color: var(--title-shadow);
-    --main-text-color: #F1B2CE;
-    --hover-color: 1px solid rgba(255, 0, 112, 0,4);
-    --title-section-color: var(--backgroung-color);
+
+  .header__theme-menu-button {
+    color: #353430;
   }
 
+  .section__title {
+    color: #353430;
+  }
+
+  .header__title {
+    text-shadow: 4px 4px 0 #ff8dcb;
+  }
+
+  .decorated-zone::after {
+    border-left: 1px solid #353430;
+    border-bottom: 1px solid #353430;
+  }
+
+  .decorated-zone::before {
+    border-right: 1px solid #353430;
+    border-top: 1px solid #353430;
+  }
+
+  .header__theme-menu-button:hover {
+    outline: 1px solid #32312d66;
+  }
+
+  .header__theme-menu-button:default {
+    outline: 1px solid #353430;
+  }
+
+  .header__theme-menu-button:focus {
+    border-bottom: 1px solid #353430;
+  }
+
+  .section__text-link {
+    text-shadow: 1px 1px 0 #ff8dcb;
+  }
+
+  .section__text-link:hover {
+    border-bottom: 1px solid var(--main-text-color);
+  }
+
+  .section__text-link:focus {
+    outline: 1px solid var(--main-text-color);
+  }
 }
 
-.page.theme_light .header__rec {
+.theme-light .page {
+  /* Вам также нужно будет написать ряд подобных селекторов */
+  --title-color: #ffc2e6;
+  --main-text-color: #353430;
+  --text-color: #353430;
+  --back-color: #ff8dcb;
+  --background-main-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --font-size: 18px;
+  --font-family: IBM Plex mono, Bold Regular;
+}
+
+.theme-light .header__decor {
   display: none;
 }
