@@ -171,7 +171,7 @@
 }
 
 .section__card-text-one {
-  padding-block-end: 10px;
+  padding-block-end: 20px;
   font-size: var(--font-size);
   color: var(--main-text-color);
 }
