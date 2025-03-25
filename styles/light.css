@@ -22,6 +22,11 @@
     text-shadow: 4px 4px 0 #ff8dcb;
   }
 
+  .header__theme-menu-button_active {
+    pointer-events: none;
+    border: 1px solid var(--text-color);
+  }
+
   .decorated-zone::after {
     border-left: 1px solid #353430;
     border-bottom: 1px solid #353430;
