@@ -141,66 +141,87 @@
 
 /* -----------------------------MAIN------------------------------*/
 
-.section {
-  margin: 0 10px 0 10px;
-  display: flex;
-  flex-direction: column;
+.main {
+  padding: 0 10px;
 }
 
 .section__title {
   color: var(--back-color);
   font-weight: 700;
-  font-size: var(--font-size);
   line-height: 23px;
-  margin-block-start: 52px;
-}
-
-.section__title-one {
-  margin-block-start: 45px;
-}
-
-.card__title {
-  font-weight: 700;
-  background-color: var(--back-color);
   font-size: var(--font-size);
-  line-height: 23px;
-  color: var(--text-color);
 }
 
-.card__title-no-bold {
-  font-weight: 400;
-}
-
-.card__title-free {
-  font-weight: 700;
-  background-color: var(--back-color);
+.section__card-text {
   font-size: var(--font-size);
-  line-height: 23px;
-  color: var(--text-color);
-  margin-block-start: 20px;
-}
-
-.card__text {
   color: var(--main-text-color);
-  font-size: var(--font-size);
 }
 
-.card__list {
+.section-one {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article__section {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 23px;
+}
+
+.section__card-text-one {
+  padding-block-end: 10px;
+  font-size: var(--font-size);
+  color: var(--main-text-color);
+}
+
+
+/* ---------------------- */
+
+.section-two {
+  padding-block-end: 50px;
+  padding-block-start: 50px;
+}
+
+.section__container-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-block-start: 20px;
+}
+
+.section__card-title-two {
+  margin-bottom: 10px;
+}
+
+/* ---------------------- */
+
+.section-fhree {
+  padding-block-end: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.article__section-fhree {
+  display: grid;
+  gap: 20px;
+}
+
+.card__text-fhree {
+  padding-block-start: 10px;
+}
+
+.section__card-subtitle {
+  font-weight: 400;
 }
 
 .card__title-main {
-  background-color: var(--back-color);
-  color: var(--text-color);
-  font-size: var(--font-size);
-  font-weight: 700;
-  line-height: 23px;
-  margin-block-start: 50px;
   margin-block-end: 10px;
 }
+
+/* -------------------------- */
 
 .section__grid {
   display: grid;
@@ -218,9 +239,8 @@
 /* -----------------------------LINK----------------------------*/
 
 .section__text-link {
-  color: var(--main-text-color);
-  text-shadow: 1px 1px 0 #ff0070;
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .section__text-link:hover {
@@ -228,7 +248,11 @@
 }
 
 .section__text-link:focus {
-  outline: 1px solid var(--main-text-color);
+  outline: none;
+}
+
+.section__text-link:focus-visible {
+  border: 1px solid var(--main-text-color);
 }
 
 /* -----------------------------LINK----------------------------*/
