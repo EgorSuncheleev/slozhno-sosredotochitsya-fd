@@ -349,7 +349,7 @@
   .section-fhree {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-inline-end: 80px;
+    padding-block-end: 80px;
   }
 
   .footer {
