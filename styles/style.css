@@ -363,7 +363,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
-    max-height: 823px;
   }
 
   .picture:nth-child(1) {
@@ -444,10 +443,6 @@
 
   .card__title-main {
     margin-block-end: 20px;
-  }
-
-  .section__grid {
-    max-height: 1091px;
   }
 
   .footer__title {
