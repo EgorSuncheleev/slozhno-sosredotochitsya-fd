@@ -359,6 +359,10 @@
     gap: 20px;
   }
 
+  .card__text-fhree {
+    padding-block-start: 5px;
+}
+
   .section-fhree {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -438,6 +442,10 @@
     gap: 20px;
     grid-template-rows: auto;
   }
+
+  .card__text-fhree {
+    padding-block-start: 15px;
+}
 
   .section-one {
     grid-template-columns: 1fr 2.06fr;
