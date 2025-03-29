@@ -336,7 +336,7 @@
   }
 
   .section-two {
-    margin-block-start: 80px;
+    margin-block-start: 85px;
     margin-block-end: 80px;
   }
 
@@ -353,6 +353,10 @@
 
   .section__card-title-two {
     margin-bottom: 15px;
+  }
+
+  .article__section-fhree {
+    gap: 20px;
   }
 
   .section-fhree {

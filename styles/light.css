@@ -50,4 +50,8 @@
     --hover-color: #32312d66;
     --default-color: #353430;
   }
+
+  .header__decor {
+    display: none;
+  }
 }
