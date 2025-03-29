@@ -213,10 +213,6 @@
   gap: 25px;
 }
 
-.card__text-fhree {
-  padding-block-start: 10px;
-}
-
 .section__card-subtitle {
   font-weight: 400;
 }
@@ -231,7 +227,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .picture {
@@ -336,8 +332,8 @@
   }
 
   .section-two {
-    margin-block-start: 85px;
-    margin-block-end: 75px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
   }
 
   .section__title-two {
