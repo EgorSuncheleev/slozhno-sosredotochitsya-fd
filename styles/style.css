@@ -369,6 +369,10 @@
     padding-block-end: 80px;
   }
 
+  .section__card-subtitle-margin {
+    margin-block-start: 10px;
+  }
+
   .footer {
     padding: 20px;
     display: flex;
