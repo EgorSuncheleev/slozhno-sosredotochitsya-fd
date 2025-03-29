@@ -337,7 +337,7 @@
 
   .section-two {
     margin-block-start: 85px;
-    margin-block-end: 80px;
+    margin-block-end: 75px;
   }
 
   .section__title-two {
@@ -445,6 +445,10 @@
 
   .section-fhree {
     grid-template-columns: 1fr 2.06fr;
+  }
+
+  .card__text-fhree {
+    padding-block-start: 10px;
   }
 
   .card__title-main {
