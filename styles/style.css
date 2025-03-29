@@ -181,7 +181,6 @@
   color: var(--main-text-color);
 }
 
-
 /* ---------------------- */
 
 .section-two {
@@ -332,8 +331,12 @@
     gap: 20px;
   }
 
+  .section__card-text-one {
+    padding-block-end: 10px;
+  }
+
   .section-two {
-    padding: 90px 0 80px;
+    padding: 80px 0 80px;
   }
 
   .section__title-two {
@@ -390,12 +393,8 @@
 
   /* FOOTER */
 
-  .footer {
-    padding: 20px;
-  }
-
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   /* FOOTER */
@@ -428,11 +427,6 @@
 
   /* MAIN */
 
-  .section-two {
-    padding-block-start: 80px;
-    padding-block-end: 80px;
-  }
-
   .section__container-two {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
@@ -449,7 +443,6 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
 }
