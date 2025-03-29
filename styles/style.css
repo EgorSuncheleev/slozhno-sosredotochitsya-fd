@@ -360,10 +360,6 @@
     padding-block-end: 5px;
 }
 
-.card__title-main {
-  margin-block-end: 20px;
-}
-
   .section-fhree {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -477,9 +473,5 @@
 
   .card__title-main {
     margin-block-end: 20px;
-  }
-
-  .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
