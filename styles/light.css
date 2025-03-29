@@ -5,66 +5,14 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
+  .header__decor {
+    display: none;
+  }
+}
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
-  .header__theme-menu-button {
-    color: var(--text-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    outline: 1px solid var(--text-color);
-  }
-
-  .section__title {
-    color: var(--text-color);
-  }
-
-  .header__title {
-    text-shadow: 4px 4px 0 var(--back-color);
-  }
-
-  .header__theme-menu-button_active {
-    pointer-events: none;
-    border: 1px solid var(--text-color);
-  }
-
-  .decorated-zone::after {
-    border-left: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
-  }
-
-  .decorated-zone::before {
-    border-right: 1px solid var(--text-color);
-    border-top: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid #32312d66;
-  }
-
-  .header__theme-menu-button:default {
-    outline: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button:focus {
-    border-bottom: 1px solid var(--text-color);
-  }
-
-  .section__text-link {
-    text-shadow: 1px 1px 0 var(--back-color);
-  }
-
-  .section__text-link:hover {
-    border-bottom: 1px solid var(--main-text-color);
-  }
-
-  .section__text-link:focus {
-    outline: 1px solid var(--main-text-color);
-  }
-}
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
@@ -72,12 +20,34 @@
   --main-text-color: #353430;
   --text-color: #353430;
   --back-color: #ff8dcb;
+  --button-color: #353430;
   --background-main-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --font-size: 18px;
   --font-family: IBM Plex mono, Bold Regular;
+  --section-title-color: #353430;
+  --accent-color: #353430;
+  --corner-color: #353430;
+  --hover-color: #32312d66;
+  --default-color: #353430;
+  --link-color: #ff8dcb;
 }
 
-.theme-light .header__decor {
-  display: none;
+@media (prefers-color-scheme: light) {
+  .theme-auto {
+    --title-color: #ffc2e6;
+    --main-text-color: #353430;
+    --text-color: #353430;
+    --back-color: #ff8dcb;
+    --button-color: #353430;
+    --background-main-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --font-size: 18px;
+    --font-family: IBM Plex mono, Bold Regular;
+    --section-title-color: #353430;
+    --accent-color: #353430;
+    --corner-color: #353430;
+    --hover-color: #32312d66;
+    --default-color: #353430;
+  }
 }
