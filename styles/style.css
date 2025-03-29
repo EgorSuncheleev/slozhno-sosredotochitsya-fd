@@ -184,8 +184,8 @@
 /* ---------------------- */
 
 .section-two {
-  padding-block-end: 55px;
-  padding-block-start: 55px;
+  margin-block-end: 55px;
+  margin-block-start: 55px;
 }
 
 .section__container-two {
@@ -336,7 +336,8 @@
   }
 
   .section-two {
-    padding: 85px 0 80px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
   }
 
   .section__title-two {
@@ -436,6 +437,10 @@
 
   .section__title-two {
     max-inline-size: 315px;
+  }
+
+  .section-fhree {
+    grid-template-columns: 1fr 2.06fr;
   }
 
   .card__title-main {
