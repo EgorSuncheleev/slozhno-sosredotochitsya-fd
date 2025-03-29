@@ -360,6 +360,10 @@
     padding-block-end: 5px;
 }
 
+.card__title-main {
+  margin-block-end: 20px;
+}
+
   .section-fhree {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -456,6 +460,13 @@
     max-inline-size: 315px;
   }
 
+  .section-two {
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+  }
+
+}
+
   .section-fhree {
     grid-template-columns: 1fr 2.06fr;
   }
@@ -471,4 +482,4 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-}
+
