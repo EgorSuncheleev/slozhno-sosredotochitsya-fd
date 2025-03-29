@@ -333,7 +333,7 @@
   }
 
   .section-two {
-    padding: 80px 0 80px;
+    padding: 90px 0 80px;
   }
 
   .section__title-two {
@@ -345,6 +345,10 @@
     flex-direction: column;
     gap: 20px;
     padding-block-start: 20px;
+  }
+
+  .section__card-title-two {
+    margin-bottom: 15px;
   }
 
   .section-fhree {
