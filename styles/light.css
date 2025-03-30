@@ -31,6 +31,7 @@
   --hover-color: #32312d66;
   --default-color: #353430;
   --link-color: #ff8dcb;
+  --bacground-color: #FFF1F7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,6 +50,7 @@
     --corner-color: #353430;
     --hover-color: #32312d66;
     --default-color: #353430;
+    --bacground-color: #FFF1F7;
   }
 
   .header__decor {
