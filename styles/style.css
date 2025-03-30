@@ -356,6 +356,10 @@
     padding-block-end: 5px;
   }
 
+  .card__title-main {
+    margin-block-end: 20px;
+}
+
   .article__section-fhree {
     gap: 20px;
   }
