@@ -456,11 +456,6 @@
     max-inline-size: 315px;
   }
 
-  .section-two {
-    margin-block-start: 80px;
-    margin-block-end: 85px;
-  }
-
   .section-fhree {
     grid-template-columns: 1fr 2.06fr;
   }
