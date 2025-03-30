@@ -448,10 +448,6 @@
     grid-template-rows: auto;
   }
 
-  .section-two {
-    padding-block-start: 80px;
-}
-
   .section-one {
     grid-template-columns: 1fr 2.06fr;
   }
@@ -468,3 +464,4 @@
     margin-block-end: 20px;
   }
 }
+
