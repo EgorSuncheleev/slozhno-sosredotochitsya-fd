@@ -184,14 +184,14 @@
 /* ---------------------- */
 
 .section-what {
-  padding-block-start: 60px;
+  padding-block-start: 50px;
+  padding-block-end: 50px;
 }
 
 .section__container-what {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  padding-block-start: 20px;
+  gap: 20px;
 }
 
 .article__section-what {
@@ -281,7 +281,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 0 10px 10px;
 }
 
 .footer__title {
@@ -344,6 +344,9 @@
   .section-what {
     padding-block-start: 80px;
     padding-block-end: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .section__title-what {
@@ -369,7 +372,7 @@
   }
 
   .footer {
-    padding: 20px;
+    padding: 0 20px 20px;
     display: flex;
     justify-content: center;
   }
