@@ -164,7 +164,7 @@
 }
 
 .section-why {
-  padding-top: 30px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -336,7 +336,7 @@
   }
 
   .section-why {
-    padding-block-start: 40px;
+    padding-block-start: 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
