@@ -160,6 +160,7 @@
 .section__card-text {
   font-size: var(--font-size);
   color: var(--main-text-color);
+  line-height: 23.4px;
 }
 
 .section-why {
@@ -178,6 +179,7 @@
 .section__card-text-why {
   font-size: var(--font-size);
   color: var(--main-text-color);
+  line-height: 23.4px;
 }
 
 /* ---------------------- */
