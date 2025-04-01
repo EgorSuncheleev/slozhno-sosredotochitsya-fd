@@ -176,7 +176,6 @@
 }
 
 .section__card-text-why {
-  padding-block-end: 20px;
   font-size: var(--font-size);
   color: var(--main-text-color);
 }
@@ -338,10 +337,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-  }
-
-  .section__card-text-why {
-    padding-block-end: 15px;
   }
 
   .section-what {
