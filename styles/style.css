@@ -336,7 +336,7 @@
   }
 
   .section-why {
-    padding-block-start: 80px;
+    padding-block-start: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
