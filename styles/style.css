@@ -18,7 +18,7 @@
 .header {
   block-size: 100vh;
   min-block-size: 668px;
-  padding: 10px;
+  padding: 10px 10px 0;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -180,6 +180,7 @@
   font-size: var(--font-size);
   color: var(--main-text-color);
   line-height: 23.4px;
+  margin-block-end: 10px;
 }
 
 /* ---------------------- */
@@ -302,7 +303,7 @@
   /* HEADER */
 
   .header {
-    padding: 20px;
+    padding: 20px 20px 0;
   }
 
   .header__decor {
@@ -342,7 +343,7 @@
   }
 
   .section-what {
-    padding-block-start: 90px;
+    padding-block-start: 80px;
     padding-block-end: 80px;
   }
 
