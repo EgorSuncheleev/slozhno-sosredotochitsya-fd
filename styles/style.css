@@ -18,7 +18,7 @@
 .header {
   block-size: 100vh;
   min-block-size: 668px;
-  padding: 10px 10px 0;
+  padding: 10px;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -164,7 +164,7 @@
 }
 
 .section-why {
-  padding-top: 40px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -303,7 +303,7 @@
   /* HEADER */
 
   .header {
-    padding: 20px 20px 0;
+    padding: 20px;
   }
 
   .header__decor {
@@ -336,7 +336,7 @@
   }
 
   .section-why {
-    padding-block-start: 60px;
+    padding-block-start: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
