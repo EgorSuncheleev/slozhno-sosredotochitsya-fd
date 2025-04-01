@@ -24,7 +24,7 @@
   --background-main-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --font-size: 18px;
-  --font-family: IBM Plex mono, Bold Regular;
+  --font-family: IBM Plex mono, sans-serif;
   --section-title-color: #353430;
   --accent-color: #353430;
   --corner-color: #353430;
@@ -44,7 +44,7 @@
     --background-main-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
     --font-size: 18px;
-    --font-family: IBM Plex mono, Bold Regular;
+    --font-family: IBM Plex mono, sans-serif;
     --section-title-color: #353430;
     --accent-color: #353430;
     --corner-color: #353430;
