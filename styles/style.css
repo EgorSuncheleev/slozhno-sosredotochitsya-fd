@@ -186,6 +186,9 @@
 .section-what {
   padding-block-start: 50px;
   padding-block-end: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .section__container-what {
@@ -342,11 +345,8 @@
   }
 
   .section-what {
-    padding-block-start: 80px;
+    padding-block-start: 90px;
     padding-block-end: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
   }
 
   .section__title-what {
