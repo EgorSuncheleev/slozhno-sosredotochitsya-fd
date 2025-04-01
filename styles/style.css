@@ -194,10 +194,6 @@
   padding-block-start: 20px;
 }
 
-.section__card-title-what {
-  margin-bottom: 10px;
-}
-
 .article__section-what {
   display: flex;
   flex-direction: column;
@@ -352,10 +348,6 @@
 
   .section__title-what {
     max-inline-size: 236px;
-  }
-
-  .section__card-title-what {
-    margin-bottom: 15px;
   }
 
   .card__title-main {
