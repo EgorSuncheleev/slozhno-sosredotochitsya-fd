@@ -176,13 +176,6 @@
   gap: 10px;
 }
 
-.section__card-text-why {
-  font-size: var(--font-size);
-  color: var(--main-text-color);
-  line-height: 23.4px;
-  margin-block-end: 10px;
-}
-
 /* ---------------------- */
 
 .section-what {
