@@ -169,6 +169,10 @@
   gap: 20px;
 }
 
+.article_section-block {
+
+}
+
 .section-why {
   padding-top: 40px;
 }
@@ -197,12 +201,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.article__section-what {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 /* ---------------------- */
@@ -351,10 +349,6 @@
   .card__title-main {
     margin-block-end: 20px;
 }
-
-  .article__section-how {
-    gap: 20px;
-  }
 
   .section-how {
     display: grid;
