@@ -180,9 +180,6 @@
 }
 
 .section__card-text-why {
-  font-size: var(--font-size);
-  color: var(--main-text-color);
-  line-height: 23.4px;
   margin-block-end: 10px;
 }
 
@@ -217,12 +214,6 @@
   margin-block-end: 10px;
 }
 
-.section__container-how {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 /* -------------------------- */
 
 .section__grid {
@@ -252,7 +243,7 @@
 }
 
 .section__text-link:focus {
-  border: 1px solid var(--default-color);
+  border: 1px solid var(--link-border-color);
 }
 
 .section__text-link:focus-visible {
@@ -277,7 +268,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 10px 10px;
+  padding: 0 10px;
 }
 
 .footer__title {
