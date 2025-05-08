@@ -220,7 +220,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .picture {
@@ -357,6 +357,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-bottom: 60px;
   }
 
   .picture:nth-child(1) {
